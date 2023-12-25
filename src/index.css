@@ -1,0 +1,84 @@
+@font-face {
+  font-family:"Poppins";
+  src: url("../public/fonts/Poppins-Regular.ttf") format("truetype") ,
+  url("../public/fonts/Poppins-Regular.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+#root{
+  width: 100%;
+  height: 100%;
+}
+html{
+  width: 100%;
+  height: 100%;
+}
+body {
+  width: 100%;
+  height: 100%;
+  margin: 0;
+  /* font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif; */
+    font-family: "Poppins"!important;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-color:#B1E5D3 ;
+  font-size: 14px;
+
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+input { outline: none !important;
+border: none;
+}
+
+input::placeholder{
+  font-size: 12px;
+  
+}
+
+a{
+  text-decoration: none;
+  cursor: pointer;
+}
+.login-img-container{
+  /* background-image: url("../public/img/login.png");
+  background-repeat: no-repeat;
+  background-size: cover; */
+  align-items: center;
+  text-align: center;
+  margin: auto;
+  width: 45%;
+}
+.login-img{
+  width: 90%
+  
+}
+.login-container{
+  width: 45%;
+  border-radius: 15px 0 0 15px;
+}
+.btn-green {
+  padding: 0.7rem 1.8rem !important;
+  display: inline-block !important;
+  color: #fff !important;
+  border-radius: 17px !important;
+  text-align: center !important; 
+}
+
+.btn-green {
+  background-color: #4DA766 !important;
+  border: none !important;
+  transition: all 500ms !important;
+}
+
+.btn-green:hover {
+  background-color: #45915a !important;
+
+}
+
